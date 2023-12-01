@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Britney;
+    src: url("../Fonts/Britney/Fonts/WEB/fonts/Britney-Regular.woff");
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("../Fonts/Quicksand/Fonts/WEB/fonts/Quicksand-Medium.woff");
+    font-weight: lighter;
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /*font-family: system-ui;*/
+    font-family: Quicksand;
+}
+
+h1 {
+    overflow: left;
+    font-family: Britney;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.content {
+    overflow: hidden;
+    background-color: #515151;
+    background-image: url("../images/Image01.jpeg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center -320px;
+    background-size: 1620px 1150px;
+    height: 800px;
+    color: white;
+}
+
+.topBar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(165, 41, 41);
+    overflow: hidden;
+
+}
+
+.title {
+    float: left;
+}
+
+#button {
+    display: inline-block;
+    padding: 10px 20px 5px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #00000070;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #00000070;
+    transition: all 0.0s ease;
+}
+
+#button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+}
+
+#button:active {
+    background-color: #fff;
+    color: #ff5252;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+#iconWA {
+    display: flex;
+    float: right;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.btnWA {
+    margin: 18px 18px;
+    float: right;
+}
+
+
+.Eslogan {
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 200px;
+}
+
+.lista {
+    border-radius: 25px;
+    background-color: #facf7f6c;
+    color: #630A10;
+    margin: 15px 15px 15px 70px;
+    padding: 20px;
+    float: left;
+    width: 35%;
+}
+
+#Icon {
+    overflow: left;
+    background-color: #ff5252;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 12px 6px 12px 10px;
+}
